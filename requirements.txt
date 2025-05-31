@@ -1,2 +1,9 @@
 fastapi
 uvicorn
+httpx
+websockets
+psycopg2-binary
+python-multipart
+databases
+asyncpg
+python-multipart
