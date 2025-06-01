@@ -14,8 +14,8 @@ This project is a FastAPI backend for uploading, parsing, preprocessing, storing
 
 1. **Create a virtual environment:**
    ```zsh
-   python3 -m venv venv
-   source venv/bin/activate
+   python -m venv .venv
+   source .venv/bin/activate
    ```
 2. **Install dependencies:**
    ```zsh
