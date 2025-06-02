@@ -1,9 +1,10 @@
 fastapi
 uvicorn
 httpx
+python-dotenv
+sqlalchemy
 websockets
 psycopg2-binary
 python-multipart
 databases
 asyncpg
-python-multipart

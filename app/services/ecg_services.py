@@ -1,11 +1,12 @@
 import asyncpg
 from typing import List, Dict
+import os
 
 DB_CONFIG = {
-    'user': 'postgres',
-    'password': '1234',
-    'database': 'ecg',
-    'host': 'localhost',
+    'user': os.getenv("POSTGRES_USER", 'postgres'),
+    'password': os.getenv("POSTGRES_PASSWORD", 'password'),
+    'database': os.getenv("POSTGRES_DB", 'ecg'),
+    'host': os.getenv("POSTGRES_HOST", 'localhost'),
 }
 
 async def create_ecg_table():
